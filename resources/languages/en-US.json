@@ -1,0 +1,11 @@
+{
+	"connected.donationalerts.1": "Done! Now waiting for DonationAlerts connection... watch the terminal!",
+	"connected.donationalerts.2": "Successfully connected to DonationAlerts!",
+	"connected.minecraft": "Successfully connected to Minecraft server!",
+	"message.commandExecuted": "Command executed:",
+	"message.donated.1": "donated",
+	"message.donated.2": "with the message:",
+	"message.donated.3": "without message.",
+	"message.error": "Something went wrong...",
+	"message.greetings": "Hello! Open the link that appears in your browser! If it doesn't open automatically, go to this address manually: http://127.0.0.1:5000."
+}
