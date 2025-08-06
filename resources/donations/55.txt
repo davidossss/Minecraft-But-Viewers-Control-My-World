@@ -1,0 +1,1 @@
+give @a minecraft:golden_apple 1

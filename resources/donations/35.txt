@@ -1,0 +1,1 @@
+effect give @a minecraft:speed $randNum(180, 250) $randNum(1, 2)

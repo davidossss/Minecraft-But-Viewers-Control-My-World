@@ -1,0 +1,1 @@
+tp @a ~$randNum(-1000, 1000) ~$randNum(-75, 75) ~$randNum(-1000, 1000)

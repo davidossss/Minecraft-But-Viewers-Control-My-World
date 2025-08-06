@@ -1,0 +1,1 @@
+effect give @a minecraft:levitation $randNum(10, 30) $randNum(1, 3)

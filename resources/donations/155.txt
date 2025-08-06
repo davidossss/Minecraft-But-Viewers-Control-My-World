@@ -1,0 +1,1 @@
+item replace entity @a weapon.mainhand with minecraft:air

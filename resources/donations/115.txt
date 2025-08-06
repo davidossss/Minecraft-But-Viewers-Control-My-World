@@ -1,0 +1,5 @@
+execute as @a at @s run summon minecraft:pillager ~ ~ ~
+execute as @a at @s run summon minecraft:pillager ~ ~ ~
+execute as @a at @s run summon minecraft:pillager ~ ~ ~
+execute as @a at @s run summon minecraft:pillager ~ ~ ~
+execute as @a at @s run summon minecraft:pillager ~ ~ ~

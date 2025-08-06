@@ -1,0 +1,2 @@
+execute as @a at @s run summon minecraft:wolf ~ ~ ~ {CustomName:"\"$nickDonator\"", Tags:["companion"]}
+execute as @e[type=minecraft:wolf,nbt={Tags:["companion"],CustomName:"\"$nickDonator\""}] at @s run data modify entity @s Owner set from entity @p UUID

@@ -1,0 +1,1 @@
+give _veselchak_happy minecraft:diamond $randNum(1, 32)
