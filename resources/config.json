@@ -1,0 +1,18 @@
+{
+	"app_id": айди вашего приложения, обязательно без кавычек!,
+	"app_token": "токен вашего приложения, обязательно с кавычками!",
+	
+	"minecraft_server_ip": "айпи вашего сервера, обязательно с кавычками!",
+	"port_rcon": 25575,
+	"password_rcon": "пароль RCON, обязательно с кавычками!",
+	
+	"findLastSmaller": true,
+	"currency": "RUB",
+	
+	"sendCommandFeedback": false,
+	"send_donate_info_in_minecraft_chat": true,
+	
+	"language": "ru-RU",
+	
+	"version": "1.0"
+}
