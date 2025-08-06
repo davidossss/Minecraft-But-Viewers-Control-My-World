@@ -1,0 +1,11 @@
+{
+	"connected.donationalerts.1": "Готово! Осталось ждать подключения к DonationAlerts... следи за терминалом!",
+	"connected.donationalerts.2": "Подключение к DonationAlerts было успешно установлено!",
+	"connected.minecraft": "Подключение к Minecraft серверу было успешно установлено!",
+	"message.commandExecuted": "Выполнена команда:",
+	"message.donated.1": "задонатил(а)",
+	"message.donated.2": "со словами:",
+	"message.donated.3": "без слов.",
+	"message.error": "Что-то пошло не так...",
+	"message.greetings": "Привет! Зайди в открывшуюся ссылку в браузере! Если ссылка не открылась, тогда открой сам: http://127.0.0.1:5000."
+}
