@@ -61,18 +61,17 @@
 
 2. Скачиваем и распаковываем архив.
 3. Изменяем config.json в папке resources следующее:
-   - app_id — айди вашего приложения, обязательно без кавычек!
-   - app_token — токен вашего приложения, обязательно с кавычками!
-   - minecraft_server_ip — айпи вашего сервера, обязательно с кавычками!
-   - port_rcon — порт RCON, если вы его не трогали, оставьте всё как есть, обязательно без кавычек!
-   - password_rcon — пароль RCON, обязательно с кавычками!
+   - `app_id` — айди вашего приложения, обязательно без кавычек!
+   - `app_token` — токен вашего приложения, обязательно с кавычками!
+   - `minecraft_server_ip` — айпи вашего сервера, обязательно с кавычками!
+   - `port_rcon` — порт RCON, если вы его не трогали, оставьте всё как есть, обязательно без кавычек!
+   - `password_rcon` — пароль RCON, обязательно с кавычками!
 4. Это вы можете изменять по желанию:
-   - language — язык программы (доступны ru-RU и en-US).
-   - currency — валюта, в формате alfa-3
-   - sendCommandFeedback — отправляет в чат Minecraft какие команды были сделаны, лучше отключить для красоты.
-   - send_donate_info_in_minecraft_chat — отправляет в чат Minecraft информацию о том, кто прямо сейчас задонатил.
-   - findLastSmaller — если этот пункт будет включён (включено по умолчанию), то в папке donations будет искаться последний наименьший "донат". Например, если в папке есть 25.txt, 35.txt и пользователь задонатил 30, то будет проигрываться файл 25.txt. В противном случае, если этот пункт будет выключен, то донат проигнорируется, так как он должен быть строго равен "донатам" из папки donations.
-   - currency — валюта, в формате alfa-3. Если в донате будет другая валюта, то она конвертируется в вашу. При этом, схема выбора "донатов" из папки donations будет аналогична findFirstSmaller.
+   - `language` — язык программы (доступны ru-RU и en-US).
+   - `sendCommandFeedback` — отправляет в чат Minecraft какие команды были сделаны, лучше отключить для красоты.
+   - `send_donate_info_in_minecraft_chat` — отправляет в чат Minecraft информацию о том, кто прямо сейчас задонатил.
+   - `findLastSmaller` — если этот пункт будет включён (включено по умолчанию), то в папке donations будет искаться последний наименьший "донат". Например, если в папке есть 25.txt, 35.txt и пользователь задонатил 30, то будет проигрываться файл 25.txt. В противном случае, если этот пункт будет выключен, то донат проигнорируется, так как он должен быть строго равен "донатам" из папки donations.
+   - `currency` — валюта, в формате alfa-3. Если в донате будет другая валюта, то она конвертируется в вашу. При этом, схема выбора "донатов" из папки donations будет аналогична findFirstSmaller.
 
 ## Запуск программы
 Запускайте файл main.py. Если всё правильно настроено, вам будет нужно пройти авторизацию в DonationAlerts, вскоре вы можете наконец играть! Если же у вас появились какие-то проблемы с запуском, пишите в Issues.
@@ -175,8 +174,7 @@ The following steps apply only if you're running a local server:
    - `port_rcon` – RCON port (leave as default if unchanged, must be without quotes!)  
    - `password_rcon` – RCON password (must be in quotes!)  
 4. Optional settings (adjust as desired):
-   - `language` — the language of the program (en-US and ru-RU are available).
-   - `currency` – currency in alfa-3 format  
+   - `language` — the language of the program (en-US and ru-RU are available).  
    - `sendCommandFeedback` – sends executed commands to Minecraft chat (better to disable for aesthetics).  
    - `send_donate_info_in_minecraft_chat` – sends donation info to Minecraft chat (who donated and how much).  
    - `findLastSmaller` – if enabled (default), the program will look for the last smaller "donation" in the `donations` folder. For example, if there are `25.txt` and `35.txt` and a user donates 30, `25.txt` will be executed. If disabled, donations not matching exact amounts will be ignored.  
